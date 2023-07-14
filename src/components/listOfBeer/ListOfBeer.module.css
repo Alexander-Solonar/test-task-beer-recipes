@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  max-height: 430px;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+.item {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.12),
+    1px 4px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+.link {
+  display: block;
+  padding: 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #000;
+  background-color: #fff;
+}

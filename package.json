@@ -2,6 +2,7 @@
   "name": "test-task-beer-recipes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexander-solonar.github.io/test-task-beer-recipes/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": [

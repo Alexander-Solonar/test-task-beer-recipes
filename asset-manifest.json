@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/test-task-beer-recipes/static/css/main.073c9b0a.css",
-    "main.js": "/test-task-beer-recipes/static/js/main.7b37bfe2.js",
-    "static/js/787.013c9058.chunk.js": "/test-task-beer-recipes/static/js/787.013c9058.chunk.js",
-    "static/media/logo.svg": "/test-task-beer-recipes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/test-task-beer-recipes/static/css/main.4d9e2791.css",
+    "main.js": "/test-task-beer-recipes/static/js/main.32309620.js",
     "index.html": "/test-task-beer-recipes/index.html",
-    "main.073c9b0a.css.map": "/test-task-beer-recipes/static/css/main.073c9b0a.css.map",
-    "main.7b37bfe2.js.map": "/test-task-beer-recipes/static/js/main.7b37bfe2.js.map",
-    "787.013c9058.chunk.js.map": "/test-task-beer-recipes/static/js/787.013c9058.chunk.js.map"
+    "main.4d9e2791.css.map": "/test-task-beer-recipes/static/css/main.4d9e2791.css.map",
+    "main.32309620.js.map": "/test-task-beer-recipes/static/js/main.32309620.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7b37bfe2.js"
+    "static/css/main.4d9e2791.css",
+    "static/js/main.32309620.js"
   ]
 }

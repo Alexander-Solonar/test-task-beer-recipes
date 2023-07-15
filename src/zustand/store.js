@@ -46,7 +46,7 @@ export const useBeerStore = create(
     }),
     {
       name: "beer-storage",
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => sessionStorage),
     }
   )
 );

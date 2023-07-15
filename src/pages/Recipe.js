@@ -1,27 +1,26 @@
 import { useParams } from "react-router-dom";
-
 import { useEffect, useState } from "react";
 import * as API from "../services/API";
 
 const Recipe = () => {
+  const [recipe, setRecipe] = useState([]);
   const { recipeId } = useParams();
-  const [one, setOne] = useState([]);
 
   useEffect(() => {
     (async () => {
       try {
         const response = await API.getSingleBeer(recipeId);
-        setOne(response);
+        setRecipe(response);
       } catch {}
     })();
   }, [recipeId]);
 
   return (
     <div>
-      {one.length > 0 && (
+      {recipe.length > 0 && (
         <div>
-          <h2>{one[0].name}</h2>
-          <p>{one[0].brewers_tips}</p>
+          <h2>{recipe[0].name}</h2>
+          <p>{recipe[0].brewers_tips}</p>
         </div>
       )}
     </div>

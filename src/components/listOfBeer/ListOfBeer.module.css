@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   row-gap: 15px;
-  max-height: 430px;
+  max-height: 450px;
   padding: 15px;
+  box-sizing: border-box;
   overflow-y: scroll;
 }
 

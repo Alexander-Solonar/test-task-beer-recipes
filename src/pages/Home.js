@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import ListOfBeer from "../../components/listOfBeer/ListOfBeer";
-import { useBeerStore } from "../../zustand/store";
-import * as API from "../../services/API";
+import ListOfBeer from "../components/listOfBeer/ListOfBeer";
+import { useBeerStore } from "../zustand/store";
+import * as API from "../services/API";
 
 const Home = () => {
   const [page, setPage] = useState(1);

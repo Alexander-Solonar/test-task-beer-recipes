@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/test-task-beer-recipes/static/css/main.4954567d.css",
-    "main.js": "/test-task-beer-recipes/static/js/main.94374662.js",
+    "main.css": "/test-task-beer-recipes/static/css/main.2f357238.css",
+    "main.js": "/test-task-beer-recipes/static/js/main.08989ad5.js",
     "index.html": "/test-task-beer-recipes/index.html",
-    "main.4954567d.css.map": "/test-task-beer-recipes/static/css/main.4954567d.css.map",
-    "main.94374662.js.map": "/test-task-beer-recipes/static/js/main.94374662.js.map"
+    "main.2f357238.css.map": "/test-task-beer-recipes/static/css/main.2f357238.css.map",
+    "main.08989ad5.js.map": "/test-task-beer-recipes/static/js/main.08989ad5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4954567d.css",
-    "static/js/main.94374662.js"
+    "static/css/main.2f357238.css",
+    "static/js/main.08989ad5.js"
   ]
 }

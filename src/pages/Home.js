@@ -16,7 +16,9 @@ const Home = () => {
           const listBeers = await API.getListOfBeer(page);
           setBeers(listBeers);
           setDisplayedBeers();
-        } catch {}
+        } catch (error) {
+          alert(error.message);
+        }
       })();
     }
   }, [displayedBeers, page, setBeers, setDisplayedBeers]);

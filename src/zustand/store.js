@@ -4,8 +4,12 @@ import { persist, createJSONStorage } from "zustand/middleware";
 export const useBeerStore = create(
   persist(
     (set) => ({
+      isLoader: false,
       collectionBeers: [],
       displayedBeers: null,
+      setOnLoader: () => set(() => ({ isLoader: true })),
+      setOffLoader: () => set(() => ({ isLoader: false })),
+
       setBeers: (newBeers) => set(() => ({ collectionBeers: newBeers })),
       setDisplayedBeers: () => {
         set((state) => ({

@@ -8,6 +8,7 @@ import css from "./ListOfBeer.module.css";
 const ListOfBeer = () => {
   const [newColleCtion, setNewColleCtion] = useState([]);
   const [page, setPage] = useState(6);
+  const [isFetching, setIsFetching] = useState(false);
   const displayedBeers = useBeerStore((state) => state.displayedBeers);
   const toggleBeer = useBeerStore((state) => state.toggleBeer);
   const deleteFirstFive = useBeerStore((state) => state.deleteFirstFive);
@@ -17,9 +18,14 @@ const ListOfBeer = () => {
   useEffect(() => {
     (async () => {
       try {
+        setIsFetching(true);
         const listBeers = await API.getNextFiveBeer(page);
         setNewColleCtion(listBeers);
-      } catch {}
+      } catch (error) {
+        alert(error.message);
+      } finally {
+        setIsFetching(false);
+      }
     })();
   }, [page]);
 
@@ -31,12 +37,14 @@ const ListOfBeer = () => {
   };
 
   const handleSroll = throttle(({ target }) => {
-    console.log(target.scrollHeight);
-    if (target.scrollTop + target.clientHeight === target.scrollHeight) {
-      setPage((prevPage) => prevPage + 1);
+    if (
+      !isFetching &&
+      target.scrollTop + target.clientHeight > target.scrollHeight - 10
+    ) {
       deleteFirstFive();
-      setDisplayedBeers();
+      setPage((prevPage) => prevPage + 1);
       setFiveBeers(newColleCtion);
+      setDisplayedBeers();
     }
   }, 250);
 

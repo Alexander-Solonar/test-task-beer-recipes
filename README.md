@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Beer Recipe Test Task
+This repository contains a collection of beer recipes for the test task. Each recipe is provided in a separate file, along with additional information and instructions. This README file serves as a guide to understand the structure and purpose of this repository.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Introduction
+Recipes
+Usage
+Contributing
+License
+Introduction
+The purpose of this repository is to showcase different beer recipes. Each recipe is described in a separate file and includes relevant information such as ingredients, brewing process, and tasting notes. Whether you're an experienced brewer or a beer enthusiast, this collection provides a variety of recipes to explore and experiment with.
 
-## Available Scripts
+Recipes
+The recipes are stored in the recipes directory. Each recipe is stored as a separate file, with the filename indicating the name of the beer. Inside each recipe file, you'll find the following sections:
 
-In the project directory, you can run:
+Name: The name of the beer recipe.
+Description: A brief overview and background information about the beer.
+Ingredients: A list of ingredients required for brewing the beer.
+Instructions: Step-by-step instructions for brewing the beer.
+Tasting Notes: Flavor profile and characteristics of the beer.
+Feel free to explore the recipes and try them out to create your own delicious beers!
 
-### `npm start`
+Usage
+To use the beer recipes in this repository, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone this repository to your local machine using the following command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+git clone https://github.com/Alexander-Solonar/test-task-beer-recipes.git
+Navigate to the cloned directory:
 
-### `npm test`
+bash
+Copy code
+cd test-task-beer-recipes
+Browse the recipes directory to explore the available beer recipes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Choose a recipe that interests you and open the corresponding file to view the details.
 
-### `npm run build`
+Follow the instructions provided in the recipe file to brew the beer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Enjoy the brewing process and savor the flavors of your homemade beer!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributing
+Contributions to this repository are welcome. If you have your own beer recipes that you would like to share, feel free to submit a pull request. Make sure to follow the existing structure and provide clear instructions in your recipe files.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you find any issues or have suggestions for improvement, please open an issue in the repository, and we'll address it as soon as possible.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+The content of this repository is licensed under the MIT License. You are free to use, modify, and distribute the recipes for personal or commercial purposes. However, attribution to the original author (Alexander Solonar) is appreciated.
